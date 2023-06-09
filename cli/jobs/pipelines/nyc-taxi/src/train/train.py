@@ -1,12 +1,15 @@
 import argparse
+import os
+import pickle
+
+import pandas as pd
+
 from pathlib import Path
 from uuid import uuid4
 from datetime import datetime
-import os
-import pandas as pd
+
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
-import pickle
 
 parser = argparse.ArgumentParser("train")
 parser.add_argument("--training_data", type=str, help="Path to training data")

@@ -1,9 +1,11 @@
-import argparse
-import pandas as pd
 import os
+import pickle
+import argparse
+
+import pandas as pd
+
 from pathlib import Path
 from sklearn.linear_model import LinearRegression
-import pickle
 
 
 parser = argparse.ArgumentParser("predict")

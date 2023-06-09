@@ -1,10 +1,12 @@
 import argparse
+import os
+
+import pandas as pd
+import numpy as np
+
 from pathlib import Path
 from uuid import uuid4
 from datetime import datetime
-import os
-import pandas as pd
-import numpy as np
 
 parser = argparse.ArgumentParser("transform")
 parser.add_argument("--clean_data", type=str, help="Path to prepped data")
