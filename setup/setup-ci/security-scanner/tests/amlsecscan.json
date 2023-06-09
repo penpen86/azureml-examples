@@ -1,3 +1,0 @@
-{
-    "logAnalyticsResourceId": "/subscriptions/{subscription_id}/resourceGroups/{resource_group_name}/providers/Microsoft.OperationalInsights/workspaces/{workspace_name}"
-}
