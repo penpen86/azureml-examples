@@ -1,5 +1,0 @@
-mlflow
-azureml-mlflow
-pandas
-numpy
-tensorflow

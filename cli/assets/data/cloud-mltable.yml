@@ -1,5 +1,0 @@
-$schema: https://azuremlschemas.azureedge.net/latest/data.schema.json
-name: cloud-mltable
-description: Titanic data
-type: mltable
-path: azureml://datastores/workspaceblobstore/paths/example-data/mltable-sample

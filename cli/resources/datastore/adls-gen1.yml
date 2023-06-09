@@ -1,9 +1,0 @@
-$schema: https://azuremlschemas.azureedge.net/latest/azureDataLakeGen1.schema.json
-name: adls_gen1_example
-type: azure_data_lake_gen1
-description: Datastore pointing to an Azure Data Lake Storage Gen1.
-store_name: mytestdatalakegen1 
-credentials:
-  tenant_id: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
-  client_id: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
-  client_secret: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX

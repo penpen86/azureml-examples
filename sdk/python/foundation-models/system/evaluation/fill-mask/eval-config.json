@@ -1,4 +1,0 @@
-{
-  "metrics": ["perplexities"],
-  "add_start_token": true
-}

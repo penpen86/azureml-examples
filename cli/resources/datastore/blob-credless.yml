@@ -1,6 +1,0 @@
-$schema: https://azuremlschemas.azureedge.net/latest/azureBlob.schema.json
-name: blob_credless_example
-type: azure_blob
-description: Credential-less datastore pointing to a blob container.
-account_name: mytestblobstore
-container_name: data-container

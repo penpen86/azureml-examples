@@ -1,6 +1,0 @@
-paths:
-  - file: ./yelp_training_set.csv
-transformations:
-  - read_delimited:
-        delimiter: ','
-        encoding: 'utf8'
