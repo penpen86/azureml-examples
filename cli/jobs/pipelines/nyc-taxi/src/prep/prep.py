@@ -1,5 +1,5 @@
-# imports
-#imports begin here
+# imports required to run a prep job
+
 import argparse
 import os
 import pickle
