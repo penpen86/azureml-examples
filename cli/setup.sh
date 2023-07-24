@@ -26,7 +26,7 @@ az extension add -n ml -y
 
 ## For backward compatibility - running on old subscription
 # <set_variables>
-RESOURCE_GROUP_NAME="cloudml"
+#RESOURCE_GROUP_NAME="cloudml"
 GROUP="cloudml"
 LOCATION="centralindia"
 WORKSPACE="dev-general"
