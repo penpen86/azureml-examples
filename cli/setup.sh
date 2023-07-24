@@ -26,9 +26,10 @@ az extension add -n ml -y
 
 ## For backward compatibility - running on old subscription
 # <set_variables>
-GROUP="tf"
+RESOURCE_GROUP_NAME="cloudml"
+GROUP="cloudml"
 LOCATION="centralindia"
-WORKSPACE="cloud-teach"
+WORKSPACE="dev-general"
 # </set_variables>
 
 # If RESOURCE_GROUP_NAME is empty, the az configure is pending.
