@@ -26,7 +26,7 @@ az extension add -n ml -y
 
 ## For backward compatibility - running on old subscription
 # <set_variables>
-RESOURCE_GROUP_NAME="mlsops-june2023"
+# RESOURCE_GROUP_NAME="mlsops-june2023"
 GROUP="mlsops-june2023"
 LOCATION="eastus"
 WORKSPACE="mlsops-june2023"
