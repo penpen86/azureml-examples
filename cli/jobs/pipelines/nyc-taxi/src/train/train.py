@@ -74,7 +74,7 @@ X = train_data[
 ]
 
 # Split the data into train and test sets
-trainX, testX, trainy, testy = train_test_split(X, y, test_size=0.25, random_state=42)
+trainX, testX, trainy, testy = train_test_split(X, y, test_size=0.2, random_state=42)
 print(trainX.shape)
 print(trainX.columns)
 
