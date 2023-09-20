@@ -9,7 +9,7 @@ from pathlib import Path
 from uuid import uuid4
 from datetime import datetime
 
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import Ridge
 from sklearn.model_selection import train_test_split
 
 parser = argparse.ArgumentParser("train")
@@ -79,7 +79,7 @@ print(trainX.shape)
 print(trainX.columns)
 
 # Train a Linear Regression Model with the train set
-model = LinearRegression().fit(trainX, trainy)
+model = Ridge(alpha=0.2).fit(trainX, trainy)
 print(model.score(trainX, trainy))
 
 
