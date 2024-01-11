@@ -10,6 +10,7 @@ from uuid import uuid4
 from datetime import datetime
 
 from sklearn.linear_model import Ridge
+import scipy
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
