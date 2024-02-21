@@ -22,6 +22,7 @@ parser.add_argument("--model_output", type=str, help="Path of output model")
 args = parser.parse_args()
 
 print("hello training world...")
+print("Adding a log for triggering an action")
 
 lines = [
     f"Training data path: {args.training_data}",
